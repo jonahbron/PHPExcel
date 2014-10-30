@@ -383,7 +383,6 @@ class PHPExcel_Reader_HTML extends PHPExcel_Reader_Abstract implements PHPExcel_
 						++$column;
 						break;
 					case 'body' :
-						$row = 1;
 						$column = 'A';
 						$content = '';
 						$this->_tableLevel = 0;
